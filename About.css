@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+}
+.container2{
+    display: grid;
+    gap:2px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 100px 500px;
+}
+.box{
+    
+}
+.container2 #box1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2 #box1 h1{
+    color:red;
+    font-family: cursive;
+    font-size: x-large;
+}
+.container2 #box2 img{
+    height:100%;
+    width:100%;
+}
+.container2 #box3 h1,p{
+    color:black;
+    font-size:xx-large;
+    font-family: cursive;
+}
+.container2 #box3 button{
+    color:white;
+    height:50px;
+    width:150px;
+    border: 1px solid red;
+    border-radius: 7px;
+    background-color: red;
+}
+.container2 #box3{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left:40px;
+}
+.container2 #box3 button:hover{
+    color:red;
+    background-color: transparent;
+}
+
